@@ -1,0 +1,19 @@
+{
+  "users" :
+  [
+    {
+      "DisplayName" : "admin",
+      "EmailAddress" : "admin@volunteer.ca",
+      "Username" : "admin",
+      "Password" : "password"
+    }
+  ]
+
+
+
+
+
+
+
+
+}

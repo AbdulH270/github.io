@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Food Drive",
+    "start": "2025-03-01T09:00:00",
+    "end": "2025-03-01T15:00:00",
+    "category": "Food Drive",
+    "location": "Community Center",
+    "description": "A food drive to support local charities.",
+    "image": "./images/community_food_drive.jpg"
+  },
+  {
+    "title": "Clean-up Event",
+    "start": "2025-03-05T10:00:00",
+    "end": "2025-03-05T13:00:00",
+    "category": "Community Clean-up",
+    "location": "City Park",
+    "description": "A community effort to clean up the park.",
+    "image": "./images/community_cleanup.jpeg"
+  },
+  {
+    "title": "Tree Planting",
+    "start": "2025-03-10T08:00:00",
+    "end": "2025-03-10T12:00:00",
+    "category": "Environmental Activities",
+    "location": "Downtown",
+    "description": "Join us to plant trees in the city.",
+    "image": "./images/planting_tree_with_kids.jpg"
+  },
+  {
+    "title": "Recycling Workshop",
+    "start": "2025-03-12T14:00:00",
+    "end": "2025-03-12T16:00:00",
+    "category": "Environmental Activities",
+    "location": "Community Center",
+    "description": "Learn how to recycle properly and reduce waste.",
+    "image": "./images/recycling_workshop.jpg"
+  },
+  {
+    "title": "Blood Donation Drive",
+    "start": "2025-03-15T09:00:00",
+    "end": "2025-03-15T13:00:00",
+    "category": "Health & Wellness",
+    "location": "Hospital",
+    "description": "Donate blood and help save lives.",
+    "image": "./images/blood_donation.jpg"
+  },
+  {
+    "title": "Homeless Shelter Volunteering",
+    "start": "2025-03-18T10:00:00",
+    "end": "2025-03-18T14:00:00",
+    "category": "Community Service",
+    "location": "Downtown Shelter",
+    "description": "Volunteer to support the homeless community.",
+    "image": "./images/homeless_shelter_volunteering.jpg"
+  },
+  {
+    "title": "Beach Clean-up",
+    "start": "2025-03-20T09:00:00",
+    "end": "2025-03-20T12:00:00",
+    "category": "Environmental Activities",
+    "location": "Local Beach",
+    "description": "Help clean up the beach and protect marine life.",
+    "image": "./images/beach_clean_up.jpg"
+  },
+  {
+    "title": "Charity Run",
+    "start": "2025-03-25T07:00:00",
+    "end": "2025-03-25T11:00:00",
+    "category": "Health & Wellness",
+    "location": "City Park",
+    "description": "Participate in a run to raise funds for charity.",
+    "image": "./images/charity_run.jpg"
+  }
+]

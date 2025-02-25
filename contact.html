@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="./content/style.css">
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+</head>
+<header>
+
+
+</header>
+<main>
+  <!-- Contact Us Form -->
+  <form id="contact-form" class="col-lg-6 col-md-10 col-sm-12 mb-4">
+    <div class="input-group mb-3">
+      <span class="input-group-text">Full Name</span>
+      <input id="name" name="fullName" type="text" class="form-control" required>
+    </div>
+
+    <div class="input-group mb-3">
+      <span class="input-group-text">Email Address</span>
+      <input id="email" name="emailAddress" type="email" class="form-control" required>
+    </div>
+
+    <div class="input-group mb-3">
+      <span class="input-group-text">Subject</span>
+      <input id="subject" name="subject" type="text" class="form-control" required>
+    </div>
+
+    <div class="input-group mb-3">
+      <span class="input-group-text">Message</span>
+      <textarea id="message" name="message" class="form-control" required></textarea>
+    </div>
+
+    <button id="sendButton" type="submit" class="btn btn-primary"><i class="fa-solid fa-envelope"></i> Submit</button>
+    <button id="cancelButton" type="reset" class="btn btn-warning"><i class="fa-solid fa-rotate"></i> Cancel</button>
+  </form>
+
+  <!-- Feedback Form -->
+  <form id="feedback-form" class="col-lg-6 col-md-10 col-sm-12 mb-4">
+    <div class="input-group mb-3">
+      <span class="input-group-text">Feedback Subject</span>
+      <input id="feedbackSubject" name="feedbackSubject" type="text" class="form-control" required>
+    </div>
+
+    <div class="input-group mb-3">
+      <span class="input-group-text">Feedback</span>
+      <textarea id="feedback" name="feedback" class="form-control" required></textarea>
+    </div>
+
+    <button id="sendFeedback" type="submit" class="btn btn-primary"><i class="fa-solid fa-envelope"></i> Send Feedback</button>
+    <button id="cancelFeedback" type="reset" class="btn btn-warning"><i class="fa-solid fa-rotate"></i> Cancel Feedback</button>
+  </form>
+
+  <footer>
+
+  </footer>
+
+</main>
+<script src="./scripts/main.js"></script>
+<script src="./node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</html>
